@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import './App.css';
 
 class App extends Component {
-	handleOnClick = event => {
+	handleOnClick = (dingo) => {
+    // console.log(dingo)
 		this.props.increaseCount();
 	};
 
